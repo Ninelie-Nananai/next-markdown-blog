@@ -11,12 +11,12 @@ export default function Home({ posts }) {
     <div className="container">
       <Head>
         <title>Next.js Markdown Blog</title>
-        <meta
-          name="description"
-          content="Now in its Tenth Edition, Concepts of Programming Languages introduces students to the main constructs of contemporary programming languages and provides the tools needed to critically evaluate existing and future programming languages. Readers gain a solid foundation for understanding the fundamental concepts of programming languages through the author's presentation of design issues for various language constructs, the examination of the design choices for these constructs in some of the most common languages, and critical comparison of the design alternatives. In addition, Sebesta strives to prepare the reader for the study of compiler design by providing an in-depth discussion of programming language structures, presenting a formal method of describing syntax, and introducing approaches to lexical and syntactic analysis."
-        />
+        <meta name="description" content="" />
         <meta property="og:title" content="Next.js" />
-        <meta property="og:image" content="/images/meta-image.jpg" />
+        <meta
+          property="og:image"
+          content="https://images-na.ssl-images-amazon.com/images/I/518JeTENdLL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg"
+        />
       </Head>
 
       <main>
