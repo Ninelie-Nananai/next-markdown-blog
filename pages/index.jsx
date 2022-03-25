@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "@styles/Home.module.css";
 import fs from "fs";
 import path from "path";
@@ -20,7 +19,7 @@ export default function Home({ posts }) {
       <main>
         <div className="posts">
           {posts.map((post, index) => (
-            <Post post={post} />
+            <Post key={index} post={post} />
           ))}
         </div>
       </main>
@@ -33,7 +32,7 @@ export default function Home({ posts }) {
         >
           Powered by{" "}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
